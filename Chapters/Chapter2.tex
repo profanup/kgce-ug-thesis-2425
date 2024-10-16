@@ -1,0 +1,47 @@
+% Chapter Template
+
+\chapter{LITERATURE SURVEY} % Main chapter title
+
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 2. \emph{LITERATURE SURVEY}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+
+This shall normally form Chapter 2 and shall present a critical appraisal of the previous work published in the literature pertaining to the topic of the investigation. The extent and emphasis of the chapter shall depend on the nature of the investigation. This chapter may require student citing existing literature and after comparing existing literature come up with comparison between various existing approaches.\\
+
+In following part of this chapter we give you some sample Latex code to learn how to do citation and referencing. We also show how to create large table. A .bib file contains all the bibliographic information for your document. Think of it as a sort of database of all the references you may want to include in your article (but you don’t have to necessarily).
+
+Your .bib file must contain specific information for each entry (i.e., for each article, book, proceeding, etc. that you want to cite.) The following is an example for an article entry: This is IEEE Bib example \cite{260356}
+
+\begin{lstlisting}
+@PHDTHESIS{01armentrout1981analysis,
+  author={1},
+  title={An analysis of the behavior of steel liner anchorages},
+  school={University of Tennessee},
+  year=1981,
+}
+\end{lstlisting}
+
+
+You can cite by using the cite command and the entry tag, a custom-defined tag for each entry that you can find right after the opening brace  - in our case, 01armentrout1981analysis placeholder \cite{01armentrout1981analysis} You can also have multiple citations like this: \cite{18abaqus, 17bower2011applied, 08schakra}.\\
+Lets see a table sample shown in \ref{tab:Table1}.
+
+\begin{table}[h!]  
+\begin{center}  
+\caption{The Basic Table}  
+\label{tab:Table1}  
+\begin{tabular}{|l|c|r|}\hline  
+\textbf{heading 1} & \textbf{heading 2} & \textbf{heading 3}\\\hline  
+$\alpha$ & $\beta$ & $\gamma$ \\  
+\hline  
+1 & 1.34 & a\\\hline  
+2 & 18.54 & b\\\hline  
+3 & 735.765231 & c\\\hline   
+\end{tabular}  
+\end{center}  
+\end{table}  
+
+
+
+
+

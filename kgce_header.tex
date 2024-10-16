@@ -1,0 +1,357 @@
+\documentclass[12pt, a4paper, oneside]{Thesis} % Paper size, default font size and one-sided paper
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\usepackage{sectsty}
+
+% prints author names as small caps
+
+%\usepackage{subcaption} %incompatible with subfig
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\usepackage[square, numbers]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' v
+
+\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoyingv`	
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+% prints author names as small caps
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+\setstretch{1.5} % Line spacing of 1.6 (double line spacing)
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+
+%\rhead{\thepage} % Sets the right side header to show the page number
+%\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+%\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle{Project Title}}\\[0.10cm] % Thesis title
+%\HRule \\[0.5cm] % Horizontal line
+ 
+\large \textit{Submitted in partial fulfillment of the requirements \\ for the degree of \\ Bachelor of Engineering}\\[0.03cm] % University requirement text
+\textit{by}\\[0.03cm]
+\textbf{Anup S Kunte}\\[0.01cm]
+\textbf{Roll No.}\\[0.05cm]
+\textbf{Name of the Student}\\[0.01cm]
+\textbf{Roll No.}\\[0.05cm]
+\textbf{Name of the Student}\\[0.01cm]
+\textbf{Roll No.}\\[0.05cm]
+\textit{Guide}\\[0.01cm] 
+\textbf{Name of Guide}\\[0.35cm]
+\begin{figure}[hb!]
+ \centering
+ \includegraphics[scale=0.9]{Pictures/kgce_logo.png}
+ % kgce_logo.png: 614x618 px, 300dpi, 5.20x5.23 cm, bb=0 0 147 148
+\end{figure}
+%\DEPTNAME\\ % Research group name and department name
+\textsc{DEPARTMENT OF INFORMATION TECHNOLOGY \\[0.01cm]
+KONKAN GYANPEETH COLLEGE OF ENGINEERING KARJAT-410201}\\[0.01cm] % University name
+2024-25
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\clearpage % Start a new page
+%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
+\Declaration{
+\addtocontents{toc}{\vspace{0.8em}} % Add a gap in the Contents, for aesthetics
+This is to certify that the project entitled \textbf{"Title of project"} is a bonafide work of\newline
+\begin{enumerate}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+\end{enumerate}
+
+submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \textbf{Bachelor of Engineering} in \textbf{Department of Information Technology Engineering} during academic year 2024-25. \\
+
+\begin{minipage}{0.5\textwidth}
+	\begin{flushleft} %\large
+		%\emph{\large \today}\\[2cm] % Date
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center} \large
+		\textbf{Guide}
+		\begin{center}
+			{\textlangle name\textrangle \\ 
+			\normalsize{Department of Information Technology Engineering}}
+		\end{center}
+	\end{center}}
+\end{minipage} \\[2.0cm]
+
+\begin{minipage}{0.5\textwidth}
+	\begin{flushleft} 
+		{\begin{center} \large
+		\textbf{Head of Department}
+		\begin{center}
+			{\textlangle name\textrangle \\ 
+			\normalsize{Department of AI \& data Science}}
+		\end{center}
+	\end{center}}
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center} \large
+		\textbf{Principal}
+		\begin{center}
+			{Dr. Vilas Janardan Pillewan\\ 
+			\normalsize{Konkan Gyanpeeth College of Engineering, Karjat}}
+		\end{center}
+	\end{center}}
+\end{minipage}
+ %\raisebox{-3.8\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
+}
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
+
+\Declarationa{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+This report entitled \textbf{"Project Title"} submitted by\\
+\begin{enumerate}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+    \item \textbf{Student Name} \textbf{Roll Number}
+\end{enumerate}
+is approved for the degree of Bachelor of Engineering in \textbf{Information Technology Engineering} during academic year 2024-25. \\[1cm]
+
+\begin{minipage}{0.5\textwidth}
+	\begin{flushleft} %
+	
+		%\emph{\large \today}\\[2cm] % Date
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center} \large
+		\textbf{Examiners}\\[2cm]
+		\begin{center}
+			{1..........................................\\[2.25cm]
+			2..........................................}
+		\end{center}
+	\end{center}}
+\end{minipage} \\[1.5cm]
+\large\textbf{Date: \\ Place:}
+%\raisebox{-3.5\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}}
+}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\clearpage % Start a new page
+%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
+%\vspace{15mm}
+\Declarationb{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+We declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, We have adequately cited and referenced the original sources. We also declare that we have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea/data/fact/source in our submission. We understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.\\[1cm]
+
+\begin{minipage}{0.5\textwidth}
+	\begin{flushleft} %\large
+		%\emph{\large \today}\\[2cm] % Date
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center} \large
+		\textbf{Signature}\\
+		\textbf{(Name of Student) Roll No}\\[1cm]
+		\textbf{Signature}\\
+		\textbf{(Name of Student)  Roll No}\\[1cm]
+		\textbf{Signature}\\
+		\textbf{(Name of Student)  Roll No}\\[1cm]
+		\textbf{Signature}\\
+		\textbf{(Name of Student)  Roll No}
+	\end{center}}
+ 
+\end{minipage} \\[1cm]
+  \large\textbf{Date: \\ Place:}
+  %\raisebox{-2.3\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
+}
+
+\clearpage % Start a new page
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Enter Abstract Content here.........This should be one/two short paragraphs (100-150 words total), summarizing the project work. It is important that this is not just a re-statement of the original project outline. A suggested flow is background, project aims and main achievements. From the abstract, a reader should be able to ascertain if the project is of interest to them and, it should present results of which they may wish to know more details.
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+{
+\textbf{FEA} & \textbf{F}inite \textbf{E}lement \textbf{A}nalysis \\
+\textbf{FEM} & \textbf{F}inite \textbf{E}lement \textbf{M}ethod \\
+\textbf{LVDT} & \textbf{L}inear \textbf{V}ariable \textbf{D}ifferential \textbf{T}ransformer \\
+\textbf{RC} & \textbf{R}einforced \textbf{C}oncrete
+%\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+%
+%\clearpage % Start a new page
+%
+%\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+%
+%\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+%{
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+%% Constant Name & Symbol & = & Constant Value (with units) \\
+%}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+
+\listofnomenclature{lll} % Include a list of Symbols (a two column table) Remove this section if you do not have any symbols in your report.
+{
+$D^{el}$ & elasticity tensor \\
+$\sigma$ & stress tensor \\
+$ \varepsilon $ & strain tensor \\
+% Symbol & Name & Unit \\
+
+}
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\chapterfont{\centering}
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2}
+%\input{Chapters/Chapter3}
+%\input{Chapters/Chapter4} 
+%\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\nocite{*}
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{apalike} % Use the "custom" BibTeX style for formatting the Bibliography
+
+%\bibliographystyle{unsrt}
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  
+
+
+
+
+
+
+
+
+\documentclass{report}
+\usepackage{fancyhdr,graphicx}
+\usepackage{lipsum}
+
+
+\begin{document}
+\fancyhf{}% Clear fancy header/footer
+\fancyhead[L]{\raisebox{-1.0\height}[0pt][0pt]{\includegraphics[scale=0.15]{Pictures/KGCE_Letter_head_header.png}}}
+\fancyhead[R]{\leftmark}
+\pagestyle{fancy}
+
+\chapter{A chapter}
+
+
+\end{document}
+
