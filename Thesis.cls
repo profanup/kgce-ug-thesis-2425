@@ -446,7 +446,7 @@
 \thispagestyle{plain}
 \begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
 {\normalsize #1}
-\vfil\vfil\null
+%\vfil\vfil\null
 
 }
 %\newcommand\dedicatory[1]{

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.11)  21 APR 2025 07:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.11)  21 APR 2025 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,7 +584,7 @@ Package hyperref Info: Link coloring ON on input line 22.
 \@outlinefile=\write3
 \openout3 = `kgce_header.out'.
 
-<Pictures/kgce_logo.png, id=221, 147.9126pt x 148.8762pt>
+<Pictures/kgce_logo.png, id=213, 147.9126pt x 148.8762pt>
 File: Pictures/kgce_logo.png Graphic file (type png)
 <use Pictures/kgce_logo.png>
 Package pdftex.def Info: Pictures/kgce_logo.png  used on input line 67.
@@ -595,7 +595,7 @@ Package pdftex.def Info: Pictures/kgce_logo.png  used on input line 67.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t1.enc} <./Pictures/kgce_logo.png>]
-<Pictures/KGCE_Letter_head_header.png, id=235, 1847.40187pt x 317.68687pt>
+<Pictures/KGCE_Letter_head_header.png, id=227, 1847.40187pt x 317.68687pt>
 File: Pictures/KGCE_Letter_head_header.png Graphic file (type png)
 <use Pictures/KGCE_Letter_head_header.png>
 Package pdftex.def Info: Pictures/KGCE_Letter_head_header.png  used on input li
@@ -625,7 +625,7 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 133--133
 []$ $[]$ 
  []
 
-<Pictures/KGCE_Letter_head_footer.png, id=236, 1844.39063pt x 220.57407pt>
+<Pictures/KGCE_Letter_head_footer.png, id=228, 1844.39063pt x 220.57407pt>
 File: Pictures/KGCE_Letter_head_footer.png Graphic file (type png)
 <use Pictures/KGCE_Letter_head_footer.png>
 Package pdftex.def Info: Pictures/KGCE_Letter_head_footer.png  used on input li
@@ -716,21 +716,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--200
 
 ]
 ------------------------------------------------------------------------------
- Acknowledgements
-------------------------------------------------------------------------------
-[5
-
-]
-------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./kgce_header.toc [6
+(./kgce_header.toc [5
 
 ])
 \tf@toc=\write4
 \openout4 = `kgce_header.toc'.
 
- [7]
+ [6]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -738,7 +732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--200
 \tf@lof=\write5
 \openout5 = `kgce_header.lof'.
 
- [8
+ [7
 
 
 ]
@@ -749,28 +743,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--200
 \tf@lot=\write6
 \openout6 = `kgce_header.lot'.
 
- [9
+ [8
 
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[10
+[9
 
 
 ]
 ------------------------------------------------------------------------------
  Physical Constants
 ------------------------------------------------------------------------------
-[11
+[10
 
 
 ]
 ------------------------------------------------------------------------------
  Symbols
 ------------------------------------------------------------------------------
-[12
+[11
 
 
 ] (./Chapters/Chapter1.tex
@@ -816,7 +810,7 @@ Chapter 4.
 ]
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex d
 river on input line 42.
-<Pictures/../Pictures/save.png, id=431, 149.55875pt x 148.555pt>
+<Pictures/../Pictures/save.png, id=416, 149.55875pt x 148.555pt>
 File: Pictures/../Pictures/save.png Graphic file (type png)
 <use Pictures/../Pictures/save.png>
 Package pdftex.def Info: Pictures/../Pictures/save.png  used on input line 42.
@@ -859,41 +853,36 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `kgce_header.out' has not changed.
-(rerunfilecheck)             Checksum: 32C65C25F86E3889843E45651D34EDE8;8542.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 213 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: C659CE0A5262105AABB1575B5FD875AD;8296.
+ ) 
 Here is how much of TeX's memory you used:
- 15231 strings out of 474222
- 233851 string characters out of 5748732
+ 15224 strings out of 474222
+ 233783 string characters out of 5748732
  1934975 words of memory out of 5000000
- 37097 multiletter control sequences out of 15000+600000
- 575184 words of font info for 72 fonts, out of 8000000 for 9000
+ 37094 multiletter control sequences out of 15000+600000
+ 574497 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,81p,823b,1185s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfti2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-tt0800.pfb>
-Output written on kgce_header.pdf (33 pages, 3839031 bytes).
+ 78i,11n,81p,823b,1065s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sftt0800.pfb>
+Output written on kgce_header.pdf (32 pages, 3817882 bytes).
 PDF statistics:
- 614 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
