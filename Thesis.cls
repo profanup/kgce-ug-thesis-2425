@@ -45,13 +45,17 @@
 \LoadClass{\baseclass}
 \newcommand\bhrule{\typeout{------------------------------------------------------------------------------}}
 
+%\usepackage{tocloft}
+%\renewcommand{\cftloftitlefont}{\hfil\Large\bfseries}
+%\renewcommand{\cftafterloftitle}{\hfill}
+
 \newcommand\Declaration[1]{
 \btypeout{Certificate}
 \addtotoc{Certificate}
 \thispagestyle{plain}
-%\null\vfil
+\null\vfil
 %\vskip 60\p@
-\begin{center}{\huge\bf Certificate\par}\end{center}
+%\begin{center}{\huge\bf Certificate\par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null
@@ -116,7 +120,8 @@
 \usepackage{fancyhdr}
 \lhead[\rm\thepage]{\fancyplain{}{\sl{\rightmark}}}
 \rhead[\fancyplain{}{\sl{\leftmark}}]{\rm\thepage}
-\chead{}\lfoot{}\rfoot{}\cfoot{}
+\chead[\rm\thepage]{\fancyplain{}{\sl{\rightmark}}}
+\lfoot{}\rfoot{}\cfoot{}
 \pagestyle{fancy}
 
 %inserted by A S Kunte Oct 16 2024
@@ -358,9 +363,9 @@
     \else
       \@restonecolfalse
     \fi
-    \chapter*{\contentsname
-        \@mkboth{
-           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}
+    %\chapter*{\contentsname
+    %    \@mkboth{
+     %      \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}
     \@starttoc{toc}
     \if@restonecol\twocolumn\fi
    \cleardoublepage
@@ -376,9 +381,9 @@
     \else
       \@restonecolfalse
     \fi
-    \chapter*{\listfigurename
-      \@mkboth{\MakeUppercase\listfigurename}
-              {\MakeUppercase\listfigurename}}
+    %\chapter*{\listfigurename
+    %  \@mkboth{\MakeUppercase\listfigurename}
+    %          {\MakeUppercase\listfigurename}}
     \@starttoc{lof}
     \if@restonecol\twocolumn\fi
     \cleardoublepage
@@ -394,9 +399,9 @@
     \else
       \@restonecolfalse
     \fi
-    \chapter*{\listtablename
-      \@mkboth{
-          \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}
+    %\chapter*{\listtablename
+    %  \@mkboth{
+    %      \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}
     \@starttoc{lot}
     \if@restonecol\twocolumn\fi
     \cleardoublepage
@@ -407,9 +412,9 @@
 \newcommand\listofsymbols[2]{
 \btypeout{\listsymbolname}
 \addtotoc{\listsymbolname}
-    \chapter*{\listsymbolname
-      \@mkboth{
-          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
+    %\chapter*{\listsymbolname
+    %  \@mkboth{
+    %      \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
 \begin{longtable}[c]{#1}#2\end{longtable}\par
     \cleardoublepage
 }
@@ -418,9 +423,9 @@
 \newcommand\listofconstants[2]{
 \btypeout{\listconstants}
 \addtotoc{\listconstants}
-    \chapter*{\listconstants
-      \@mkboth{
-          \MakeUppercase\listconstants}{\MakeUppercase\listconstants}}
+    %\chapter*{\listconstants
+    %  \@mkboth{
+    %      \MakeUppercase\listconstants}{\MakeUppercase\listconstants}}
 \begin{longtable}[c]{#1}#2\end{longtable}\par
     \cleardoublepage
 }
@@ -429,21 +434,21 @@
 \newcommand\listofnomenclature[2]{
 \btypeout{\listnomenclature}
 \addtotoc{\listnomenclature}
-    \chapter*{\listnomenclature
-      \@mkboth{
-          \MakeUppercase\listnomenclature}{\MakeUppercase\listnomenclature}}
+    %\chapter*{\listnomenclature
+    %  \@mkboth{
+    %      \MakeUppercase\listnomenclature}{\MakeUppercase\listnomenclature}}
 \begin{longtable}[c]{#1}#2\end{longtable}\par
     \cleardoublepage
 }
-%\newcommand\acknowledgements[1]{
-%\btypeout{Acknowledgements}
-%\addtotoc{Acknowledgements}
-%\thispagestyle{plain}
-%\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
-%{\normalsize #1}
-%\vfil\vfil\null
+\newcommand\acknowledgements[1]{
+\btypeout{Acknowledgements}
+\addtotoc{Acknowledgements}
+\thispagestyle{plain}
+\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+{\normalsize #1}
+\vfil\vfil\null
 
-%}
+}
 %\newcommand\dedicatory[1]{
 %\btypeout{Dedicatory}
 %\thispagestyle{plain}

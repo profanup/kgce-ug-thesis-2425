@@ -1,0 +1,120 @@
+\begin{thebibliography}{}
+
+\bibitem[1, 1981]{01armentrout1981analysis}
+1 (1981).
+\newblock {\em An analysis of the behavior of steel liner anchorages}.
+\newblock PhD thesis, University of Tennessee.
+
+\bibitem[ABAQUS, 2011]{18abaqus}
+ABAQUS (2011).
+\newblock {\em Abaqus 6.11 Online Documentation}.
+\newblock Dassault Systemes.
+
+\bibitem[Bower, 2011]{17bower2011applied}
+Bower, A. (2011).
+\newblock {\em Applied Mechanics of Solids}.
+\newblock Taylor \& Francis.
+
+\bibitem[Brown and Whitlock, 1983]{02brown1983strength}
+Brown, R.~H. and Whitlock, A.~R. (1983).
+\newblock Strength of anchor bolts in grouted concrete masonry.
+\newblock {\em Journal of Structural Engineering}, 109(6):1362--1374.
+
+\bibitem[Celep, 1988]{06celep1988rectangular}
+Celep, Z. (1988).
+\newblock Rectangular plates resting on tensionless elastic foundation.
+\newblock {\em Journal of Engineering mechanics}, 114(12):2083--2092.
+
+\bibitem[Chakraborty, 2006]{08schakra}
+Chakraborty, S. (2006).
+\newblock An experimental study on the beehaviour of steel plate-anchor
+  assembly embedded in concrete under biaxial loading.
+\newblock M.tech thesis, Indian Institute of Technology Kanpur.
+
+\bibitem[Cook and Klingner, 1992]{04cook1992ductile}
+Cook, R.~A. and Klingner, R.~E. (1992).
+\newblock Ductile multiple-anchor steel-to-concrete connections.
+\newblock {\em Journal of structural engineering}, 118(6):1645--1665.
+
+\bibitem[Damarla, 1999]{13damarla}
+Damarla, V.~N. (1999).
+\newblock An experimental investigation of performance of steel plate-concrete
+  interfaces under combined action of shear and normal forces.
+\newblock Master's thesis, Indian Institute of Technology Kanpur.
+
+\bibitem[Doghri, 1993]{12doghri}
+Doghri, I. (1993).
+\newblock Fully implicit integration and consistent tangent modulus in
+  elasto-plasticity.
+\newblock {\em International Journal for Numerical Methods in Engineering},
+  36(22):3915--3932.
+
+\bibitem[FEMA, 2007]{14461}
+FEMA (June, 2007).
+\newblock Interim testing protocols for determining the seismic performance
+  characteristics of structural and nonstructural components.
+\newblock Report 461, Federal Emergency Management Agency.
+
+\bibitem[Furche and Elingehausen, 1991]{03furchelateral}
+Furche, J. and Elingehausen, R. (1991).
+\newblock Lateral blow-out failure of headed studs near a free edge.
+\newblock {\em Anchors in Concrete-Design and Behavior}, SP-130.
+
+\bibitem[Kallolil et~al., 1998]{07kallolil1998experimental}
+Kallolil, J.~J., Chakrabarti, S.~K., and Mishra, R.~C. (1998).
+\newblock Experimental investigation of embedded steel plates in reinforced
+  concrete structures.
+\newblock {\em Engineering structures}, 20(1):105--112.
+
+\bibitem[Kasneci et~al., 2023]{kasneci2023chatgpt}
+Kasneci, E., Se{\ss}ler, K., K{\"u}chemann, S., Bannert, M., Dementieva, D.,
+  Fischer, F., Gasser, U., Groh, G., G{\"u}nnemann, S., H{\"u}llermeier, E.,
+  et~al. (2023).
+\newblock Chatgpt for good? on opportunities and challenges of large language
+  models for education.
+\newblock {\em Learning and individual differences}, 103:102274.
+
+\bibitem[Krawinkler et~al., 1983]{15Report61}
+Krawinkler, H., Zohrei, M., Lashkari-Irvani, B., Cofie, N., and Hadidi-Tamjed,
+  H. (1983).
+\newblock Recommendations for experimental studies on the seismic behavior of
+  steel components and materials.
+\newblock Report, Department of Civil and Environmental Engineering, Stanford
+  Unniversity.
+
+\bibitem[Lemaitre and Chaboche, 1994]{16lemaitre1994mechanics}
+Lemaitre, J. and Chaboche, J.~L. (1994).
+\newblock {\em Mechanics of Solid Materials}.
+\newblock Cambridge University Press.
+
+\bibitem[Maya, 2008]{09mayas}
+Maya, S. (2008).
+\newblock An experimental study on the effect of anchor diameter on the
+  behavior of steel plate-anchor assembly embedded in concrete under biaxial
+  loading.
+\newblock M.tech thesis, Indian Institute of Technology Kanpur.
+
+\bibitem[Sahu, 2004]{10deepaksahu}
+Sahu, D.~K. (2004).
+\newblock Experimental study on the behavior of steel plate-anchor assembly
+  embedded in concrete under cyclic loading.
+\newblock M.tech thesis, Indian Institute of Technology Kanpur.
+
+\bibitem[Schroeter and Sondhi, 1994]{260356}
+Schroeter, J. and Sondhi, M.~M. (1994).
+\newblock Techniques for estimating vocal-tract shapes from the speech signal.
+\newblock {\em IEEE Transactions on Speech and Audio Processing},
+  2(1):133--150.
+
+\bibitem[Sonkar, 2007]{11vsonkar}
+Sonkar, V. (2007).
+\newblock An experimental study on the behaviour of steel plate-anchor assembly
+  embedded in concrete under constant compressive axial load and cyclic shear.
+\newblock M.tech thesis, Indian Institute of Technology Kanpur.
+
+\bibitem[Thambiratnam and Paramasivam, 1986]{05thambiratnam1986base}
+Thambiratnam, D.~P. and Paramasivam, P. (1986).
+\newblock Base plates under axial loads and moments.
+\newblock {\em Journal of Structural Engineering}, 112(5):1166--1181.
+
+\end{thebibliography}

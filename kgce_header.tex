@@ -8,6 +8,7 @@
 \usepackage{fancyhdr}
 \usepackage[T1]{fontenc}
 \usepackage{sectsty}
+\usepackage{enumitem}
 
 % prints author names as small caps
 
@@ -79,41 +80,41 @@ KONKAN GYANPEETH COLLEGE OF ENGINEERING KARJAT-410201}\\[0.01cm] % University na
 %	Your institution may give you a different text to place here
 %----------------------------------------------------------------------------------------
 \clearpage % Start a new page
-%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
+\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=1\textwidth]{Pictures/KGCE_Letter_head_header.png}}\vspace{0.15cm}
+\begin{center}{\huge\bf Certificate\par}\end{center}\vspace{0.15cm}
 \Declaration{
 \addtocontents{toc}{\vspace{0.8em}} % Add a gap in the Contents, for aesthetics
-This is to certify that the project entitled \textbf{"Title of project"} is a bonafide work of\newline
-\begin{enumerate}
+This is to certify that the project entitled \textbf{"Title of project"} is a bonafide work of
+\begin{enumerate}[itemsep=2pt, topsep=0pt]
     \item \textbf{Student Name} \textbf{Roll Number}
     \item \textbf{Student Name} \textbf{Roll Number}
     \item \textbf{Student Name} \textbf{Roll Number}
     \item \textbf{Student Name} \textbf{Roll Number}
 \end{enumerate}
 
-submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \textbf{Bachelor of Engineering} in \textbf{Department of Information Technology Engineering} during academic year 2024-25. \\
+submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \textbf{Bachelor of Engineering} in \textbf{Department of Information Technology Engineering} during academic year 2024-25.\vspace{0.85cm}
 
 \begin{minipage}{0.5\textwidth}
-	\begin{flushleft} %\large
-		%\emph{\large \today}\\[2cm] % Date
+	\begin{flushleft} 
+		
 	\end{flushleft}
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
 	{\begin{center} \large
 		\textbf{Guide}
 		\begin{center}
-			{\textlangle name\textrangle \\ 
-			\normalsize{Department of Information Technology Engineering}}
+			{\textlangle Guide Name \textrangle \\ %remove angle braces  
+			\normalsize{Department of IT Engineering}}
 		\end{center}
 	\end{center}}
-\end{minipage} \\[2.0cm]
-
+\end{minipage}\\[1.75cm]
 \begin{minipage}{0.5\textwidth}
 	\begin{flushleft} 
 		{\begin{center} \large
 		\textbf{Head of Department}
 		\begin{center}
 			{\textlangle name\textrangle \\ 
-			\normalsize{Department of AI \& data Science}}
+			\normalsize{Department of IT Engineering}}
 		\end{center}
 	\end{center}}
 	\end{flushleft}
@@ -123,23 +124,25 @@ submitted to the University of Mumbai in partial fulfillment of the requirement 
 		\textbf{Principal}
 		\begin{center}
 			{Dr. Vilas Janardan Pillewan\\ 
-			\normalsize{Konkan Gyanpeeth College of Engineering, Karjat}}
+			\normalsize{K.G.C.E., Karjat}}\\[1.5cm]
 		\end{center}
 	\end{center}}
 \end{minipage}
- %\raisebox{-3.8\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
+
+ \raisebox{-1\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
 }
+
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
 %	Your institution may give you a different text to place here
 %----------------------------------------------------------------------------------------
 
 \clearpage % Start a new page
-%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
+\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
 
 \Declarationa{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-This report entitled \textbf{"Project Title"} submitted by\\
-\begin{enumerate}
+This report entitled \textbf{"Project Title"} submitted by
+\begin{enumerate}[itemsep=2pt, topsep=0pt]
     \item \textbf{Student Name} \textbf{Roll Number}
     \item \textbf{Student Name} \textbf{Roll Number}
     \item \textbf{Student Name} \textbf{Roll Number}
@@ -155,15 +158,15 @@ is approved for the degree of Bachelor of Engineering in \textbf{Information Tec
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
 	{\begin{center} \large
-		\textbf{Examiners}\\[2cm]
+		\textbf{Examiners}\\[1.0cm]
 		\begin{center}
-			{1..........................................\\[2.25cm]
-			2..........................................}
+			{1..........................................\\[1.5cm]
+			2..........................................}\\[1.5cm]
 		\end{center}
 	\end{center}}
-\end{minipage} \\[1.5cm]
-\large\textbf{Date: \\ Place:}
-%\raisebox{-3.5\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}}
+\end{minipage} \\[1.0cm]
+\large\textbf{Date: \\ Place:}\\[0.5cm]
+\raisebox{-1\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}}
 }
 
 %----------------------------------------------------------------------------------------
@@ -171,38 +174,34 @@ is approved for the degree of Bachelor of Engineering in \textbf{Information Tec
 %	Your institution may give you a different text to place here
 %----------------------------------------------------------------------------------------
 \clearpage % Start a new page
-%\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
-%\vspace{15mm}
+\raisebox{0.0\height}[0pt][0pt]{\includegraphics[width=0.99\textwidth]{Pictures/KGCE_Letter_head_header.png}}
 \Declarationb{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-We declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, We have adequately cited and referenced the original sources. We also declare that we have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea/data/fact/source in our submission. We understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.\\[1cm]
+We declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, We have adequately cited and referenced the original sources. We also declare that we have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea/data/fact/source in our submission. We understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.\\[0.5cm]
 
 \begin{minipage}{0.5\textwidth}
-	\begin{flushleft} %\large
-		%\emph{\large \today}\\[2cm] % Date
+	\begin{flushleft} 
 	\end{flushleft}
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
-	{\begin{center} \large
+	{\begin{center} \normalsize
 		\textbf{Signature}\\
-		\textbf{(Name of Student) Roll No}\\[1cm]
+		\textbf{(Name of Student) Roll No}\\[0.5cm]
 		\textbf{Signature}\\
-		\textbf{(Name of Student)  Roll No}\\[1cm]
+		\textbf{(Name of Student)  Roll No}\\[0.5cm]
 		\textbf{Signature}\\
-		\textbf{(Name of Student)  Roll No}\\[1cm]
+		\textbf{(Name of Student)  Roll No}\\[0.5cm]
 		\textbf{Signature}\\
 		\textbf{(Name of Student)  Roll No}
 	\end{center}}
  
-\end{minipage} \\[1cm]
-  \large\textbf{Date: \\ Place:}
-  %\raisebox{-2.3\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
+\end{minipage}
+\large\textbf{Date: \\ Place:}\\[0.25cm]
+\raisebox{-1\height}[0pt][0pt]{\includegraphics[width=\textwidth]{Pictures/KGCE_Letter_head_footer.png}} 
 }
-
-\clearpage % Start a new page
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
-
+\clearpage % Start a new page
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
 \abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
@@ -211,20 +210,23 @@ Enter Abstract Content here.........This should be one/two short paragraphs (100
 }
 
 \clearpage % Start a new page
+\addtotoc{Acknowledgements}{\vspace{1em} % Add the "Ackonowledgement" page entry to the Contents
+\acknowledgements
+Put your own content here.
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
-
-\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
-
-\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\clearpage % Start a new page
+\pagestyle{plain} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+\begin{center} {\huge\bf {Contents}\par} \end{center}
 \tableofcontents % Write out the Table of Contents
-
-\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\clearpage
+\begin{center} {\huge\bf {List of Figures}\par} \end{center}
 \listoffigures % Write out the List of Figures
 
-\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\clearpage
+\begin{center} {\huge\bf {List of Tables}\par} \end{center}
 \listoftables % Write out the List of Tables
 
 %----------------------------------------------------------------------------------------
@@ -234,9 +236,9 @@ Enter Abstract Content here.........This should be one/two short paragraphs (100
 \clearpage % Start a new page
 
 \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+\begin{center} {\huge\bf {Abbreviations}\par} \end{center}
 
-\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
-\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+\listofsymbols{cc} % Include a list of Abbreviations (a table of two columns)
 {
 \textbf{FEA} & \textbf{F}inite \textbf{E}lement \textbf{A}nalysis \\
 \textbf{FEM} & \textbf{F}inite \textbf{E}lement \textbf{M}ethod \\
@@ -249,23 +251,22 @@ Enter Abstract Content here.........This should be one/two short paragraphs (100
 %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
 %----------------------------------------------------------------------------------------
 %
-%\clearpage % Start a new page
+\clearpage % Start a new page
 %
-%\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+\begin{center} {\huge\bf {Physical Constants}\par} \end{center}
 %
-%\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
-%{
-%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+{
+ Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
 %% Constant Name & Symbol & = & Constant Value (with units) \\
-%}
+}
 
 %----------------------------------------------------------------------------------------
 %	SYMBOLS
 %----------------------------------------------------------------------------------------
 
 \clearpage % Start a new page
-
-\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+\begin{center} {\huge\bf {Symbols}\par} \end{center}
 
 \listofnomenclature{lll} % Include a list of Symbols (a two column table) Remove this section if you do not have any symbols in your report.
 {
@@ -291,10 +292,10 @@ $ \varepsilon $ & strain tensor \\
 \chapterfont{\centering}
 \input{Chapters/Chapter1}
 \input{Chapters/Chapter2}
-%\input{Chapters/Chapter3}
-%\input{Chapters/Chapter4} 
-%\input{Chapters/Chapter5} 
-%\input{Chapters/Chapter6} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+\input{Chapters/Chapter6} 
 %\input{Chapters/Chapter7} 
 
 %----------------------------------------------------------------------------------------
@@ -331,27 +332,3 @@ $ \varepsilon $ & strain tensor \\
 \bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
 
 \end{document}  
-
-
-
-
-
-
-
-
-\documentclass{report}
-\usepackage{fancyhdr,graphicx}
-\usepackage{lipsum}
-
-
-\begin{document}
-\fancyhf{}% Clear fancy header/footer
-\fancyhead[L]{\raisebox{-1.0\height}[0pt][0pt]{\includegraphics[scale=0.15]{Pictures/KGCE_Letter_head_header.png}}}
-\fancyhead[R]{\leftmark}
-\pagestyle{fancy}
-
-\chapter{A chapter}
-
-
-\end{document}
-
