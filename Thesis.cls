@@ -39,7 +39,7 @@
   \let\@this\@empty
   \if@tempswa \else \PassOptionsToClass{#1}{\baseclass}\fi
 }
-\@checkoptions{11pt}{{10pt}{11pt}{12pt}}
+%\@checkoptions{11pt}{{10pt}{11pt}{12pt}}
 \PassOptionsToClass{a4paper}{\baseclass}
 \ProcessOptions\relax
 \LoadClass{\baseclass}
